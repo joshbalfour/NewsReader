@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<?
+// ohai :3
+// If you haven't already, READ THE README, mmkay?
+// Mudkipz.
+
+?><!DOCTYPE html>
 <html>
 <head>
 <title>NewsReader</title>
