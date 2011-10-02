@@ -1,0 +1,95 @@
+body {
+    background: transparent;
+}
+h2{
+	position: absolute;
+	z-index: 2;
+	max-width: 304px;
+	color: white;
+	background-color: black;
+	background-color: rgb(1, 1, 1);
+	background-color: rgba(1, 1, 1, 0.4);
+}
+h2 a {
+   position: absolute;
+	z-index: 2;
+    padding: 48px 0;
+	text-color: white;
+	
+}
+h3 {
+	max-width: 304px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+}
+p a {
+    display: block;
+    padding: 36px 24px;
+}
+span {
+    color: white;
+}
+ul {
+		list-style-type: none;
+	
+}
+
+#newsItems {
+}
+
+#newsItems li {
+width: 304px;
+height: 171px;
+float: left;
+position: relative;
+-moz-border-radius: 15px;
+border-radius: 15px;
+margin-right:8px;
+margin-top: 4px;
+}
+
+#newsItems li div {
+width: 304px;
+height: 171px;	
+overflow: hidden;
+background: black;
+position: absolute;
+top: 0;
+left: 0;
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+
+#newsItems li div.back {
+    left: -999em;
+    background: black;
+}
+img {
+	position: absolute;
+	z-index: 1;
+	margin-left: -40px;
+	margin-top: -16px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	width: 304px;
+	height: 171px;
+}
+header {
+	text-align: center;
+}
+header a{
+	padding-right: 15px;
+	padding-left: 15px;
+	color: white;
+	background-color: black;
+}
+header a:hover{
+	padding-right: 15px;
+	padding-left: 15px;
+	color: white;
+	background-color: grey;
+}
